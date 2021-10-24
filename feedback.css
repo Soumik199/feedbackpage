@@ -1,0 +1,44 @@
+body{
+    background: rgb(15,238,241);
+     background: linear-gradient(41deg, rgba(15,238,241,1) 0%, rgba(55,174,165,1) 12%, rgba(66,84,203,1) 64%, rgba(45,87,253,1) 100%);
+}
+
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+    width: 420px;
+    height: 550px;
+    background-color: rgb(250, 248, 244);
+    border-radius:30px;
+}
+form{
+    padding:10px;
+    margin:10px 10px;
+    text-align: center;
+}
+form input[type="text"]{
+    margin:10px;
+    padding:15px;
+    width: 350px;
+    border:none;
+    border-bottom:  solid 1px black;
+    outline:none;
+}
+#mb{
+    
+    height: 120px;
+    outline:none;
+}
+.but{
+    width: 200px;
+    padding:10px;
+    font-size:1rem;
+    color:white;
+    background: rgb(15,238,241);
+     background: linear-gradient(41deg, rgba(15,238,241,1) 0%, rgba(55,174,165,1) 12%, rgba(66,84,203,1) 64%, rgba(45,87,253,1) 100%);
+     border:none;
+     outline:none;
+     border-radius:10px;
+}
